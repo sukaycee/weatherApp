@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+p {
+    font-size: 14px;
+}
+
+/* =========== HEader =============== */
+.header{
+    background-image: url("../images/iceberg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    
+}
+
+.header-iphone img {
+    width: 100%;
+}
+
+.header-overlay{
+    background-color: rgba(31,31,31,0.50);
+    
+}
+
+.logo{
+    padding-bottom: 70px;
+}
+
+.header-text h1{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 45px;
+    padding-top: 30px;
+}
+
+.header-text p{
+    color: #fff;
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 300;
+}
+
+.header-btns{
+    margin-top: 90px;
+    margin-bottom: 50px;    
+}
+
+.btn-current,
+.btn-current:focus,
+.btn-current:active,
+.btn-download:visited
+{
+    color: #fff;
+    background: transparent;
+    border-color: #129CF3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 19px;
+    border-radius: 3px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+
+}
+
+.btn-current:hover{
+    background-color: #128CF3;
+    color: #fff;
+}
+
+.btn-forecast,
+.btn-forecast:focus,
+.btn-forecast:active,
+.btn-download:visited
+{
+    color: #fff;
+    background: transparent;
+    border-color: #129CF3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 19px;
+    border-radius: 3px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+
+}
+.btn-forecast:hover{
+    background-color: #128CF3;
+    color: #fff;
+}
+
+#cityDiv{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+    
+    
+}
+
+input[type='text']{
+    height: 40px;
+    font-size: 20px;
+}
+
+#submitCity{
+    height: 40px;
+    font-weight: bold;
+    
+    
+}
+
+#errorCity{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.header-globe img {
+    width: 100%;
+}
+.display-result{
+    font-size: 55px;
+    font-weight: 300;
+    line-height: 45px;
+    padding-top: 30px;
+    padding-left: 80px;
+    font-weight: bold;
+    color: #129CF3;
+}
+
+
+.section1-title{
+    padding-top: 30px;
+}

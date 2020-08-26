@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+        <title>Weather Application</title>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=divice-width, initial-scale=1">
+        
+        <!-- Google Fonts -->
+        <link href='https://fonts.googleapis.com/css?family=Raleway:500italic,600italic,600,700,700italic,300italic,300,400,400italic,800,900' rel='stylesheet' type='text/css'>
+        
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,300italic,400italic,600italic,700,900' rel='stylesheet' type='text/css'>
+        
+        
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+                
+    </head>
+    
+    <body>
+        
+        <!-- Header -->
+        <header class="header">
+            
+            <div class="header-overlay">
+            
+                <div class="container">
+                
+                    <div class="row">
+                    
+                        <div class="col-md-12">
+                        
+                            <!-- Logo -->
+                            <div class="logo text-center">
+                            
+                               <!-- <img src="images/logo.png" alt="Logo!"> -->
+                            
+                            </div>
+                            
+                        </div>
+                    
+                    </div>
+                    
+                    <div class="row">
+                    
+                        <div class="col-md-8">
+                        
+                            <div class="header-text">
+                            
+                                <!-- Title & Description -->
+                                <h1> Weather App</h1>
+                                <p> Built by Subarna KC</p>
+                            
+                            </div>
+                            
+                            <div class="header-btns">
+                            
+                                <!-- Header buttons -->
+                                <a class="btn btn-current" href="#">Current Weather</a>
+                                <a class="btn btn-forecast" href="#"> 16 Day Forecast </a>
+                            
+                            </div>
+                        
+                        </div>
+                        
+                        <div class="col-md-4">
+                        
+                            <div class="header-iphone">
+                            
+                                <!-- Header iphone -->
+                                <img src="images/phoneIMG.png">
+                            
+                            </div>
+                        
+                        
+                        </div>
+                    
+                    </div>
+                
+                </div>
+            
+            </div>
+        
+        
+        </header>
+        
+        
+        <!--Current -->
+        <section>
+            <div class="container">
+            
+                <div class="row">
+                
+                    <div class="col-md-10 col-md-offset-1">
+                    
+                        <!-- About us Title & Description -->
+                        <div class="section-title">
+                        
+                            <h2> The Weather App by KayC </h2>
+                    
+                            
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+                
+            </div>
+        
+            
+            <div class="choose-us-wrapper">
+            
+                <div class="container">
+                
+                    <div class="row">
+                    
+                        <div class="jumbotron" style="margin-bottom:0px;">
+                        
+                            <h2 class="text-center" style="font-size: 50px; font-weight: 600;"> Current Weather Information</h2>    
+                        
+                        </div>
+                    
+                    </div>
+                
+                </div>
+            
+            </div>
+            
+            <div class="click-button-wrap">
+            
+                <div class="container">
+                
+                    <div class="row">
+                    
+                        <div class="col-md-12">
+                        
+                            <h3 class="text-center text-primary">Enter City Name</h3>
+                            
+                        </div>
+                        
+                        <div class="row form-group form-inline" id="cityDiv">
+                            <input type="text" name="city" id="city" class="form-control" placeholder="Enter City Name">
+                            <button id="submitCity" class="btn btn-primary"> Search City</button>
+                            
+                        </div>
+                    
+                    </div>
+                    
+                    <div class="row">
+                        
+                        <div class="col-md-6">
+                        
+                        <!-- abstract -->
+                            <div class="header-globe">
+                            
+                                <img src="images/globe.jpg" alt="abs">
+                            
+                            </div>
+                        
+                        </div>
+                    
+                        <div class="col-md-6">
+                        
+                            <!-- display results -->
+                            <div class="display-result">
+                                
+                                <div id="showw"></div>
+                            
+                            </div>
+                        
+                        </div>
+                    
+                    
+                    </div>
+                    
+                </div>
+            
+            
+            
+            </div>
+        
+        
+        </section>
+        
+        
+        <!-- 16 day forecast -->
+        
+        <section>
+            <div class="container">
+            
+                <div class="row">
+                
+                    <div class="col-md-10 col-md-offset-1">
+                    
+                        <!-- About us Title & Description -->
+                        <div class="section-title">
+                        
+                            <h2> The Weather App by KayC </h2>
+                    
+                            
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+                
+            </div>
+        
+            
+            <div class="choose-us-wrapper">
+            
+                <div class="container">
+                
+                    <div class="row">
+                    
+                        <div class="jumbotron" style="margin-bottom:0px;">
+                        
+                            <h2 class="text-center" style="font-size: 50px; font-weight: 600;"> 16-Days Forecast</h2>    
+                        
+                        </div>
+                    
+                    </div>
+                
+                </div>
+            
+            </div>
+            
+            <div class="click-button-wrap">
+            
+                <div class="container">
+                
+                    <div class="row">
+                    
+                        <div class="col-md-12">
+                        
+                            <h3 class="text-center text-primary">Enter City</h3>
+                            
+                        </div>
+                        
+                        <div class="row form-group form-inline" id="cityDiv">
+                            
+                            <input type="text" name="city" id="cityForecast" class="form-control" placeholder="Enter City Name">
+                            <button id="foreee" class="btn btn-primary"> Search City</button>
+                            
+                        </div>
+                    
+                    </div>
+                    
+                    <div class="row">
+                    
+                        <table class="table table-bordered">
+                        
+                            <thead>
+                                <tr>
+                                    <th>Icon</th>
+                                    <th>Weather</th>
+                                    <th>Minimum Temperature</th>
+                                    <th>Maximum Temperature</th>
+                                    <th>Wind Speed</th>
+                                </tr>
+                            
+                            </thead>
+                            
+                            <tbody id="forecastletsgo">
+                            
+                            </tbody>
+                        
+                        </table>
+                    
+                    
+                    </div>
+                    
+                </div>
+            
+            
+            
+            </div>
+        
+        
+        </section>
+        
+        
+        
+        <!-- BootStrap JavaScript -->
+        <script src= "js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/weather.js"></script>
+                <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="/__/firebase/7.18.0/firebase-app.js"></script>
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+             https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="/__/firebase/7.18.0/firebase-analytics.js"></script>
+
+        <!-- Initialize Firebase -->
+        <script src="/__/firebase/init.js"></script>
+        
+    </body>
+
+
+</html>
